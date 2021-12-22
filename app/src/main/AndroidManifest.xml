@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.smartparty.activity.Photo"></activity>
+        <activity android:name=".ui.smartparty.activity.Advice" />
+        <activity android:name=".ui.smartparty.activity.Activity_bm" />
+        <activity android:name=".ui.smartparty.activity.Learn_video" />
+        <activity android:name=".ui.smartparty.activity.Learning" />
+        <activity android:name=".ui.smartparty.activity.KongActivity" />
+        <activity android:name=".ui.smartparty.activity.Party_comment" />
+        <activity android:name=".ui.smartparty.activity.Mic_xingqing" />
+        <activity android:name=".ui.smartparty.activity.Dynamic" />
+        <activity android:name=".ui.Center.activity.Feedback" />
+        <activity android:name=".ui.Center.activity.Center_order" />
+        <activity android:name=".ui.Center.activity.Change_password" />
+        <activity android:name=".ui.Center.activity.Information" />
+        <activity android:name=".Park.ParkActivity" />
+        <activity android:name=".subway.activity.Subway_map" />
+        <activity android:name=".subway.activity.Subway_xingq" />
+        <activity android:name=".subway.City_subway" />
+        <activity android:name=".ui.home.Activity.Comment" />
+        <activity android:name=".ui.home.Activity.News_xingq" />
+        <activity android:name=".ui.home.Activity.Search_content" />
+        <activity android:name=".start.Port_Activity" />
+        <activity android:name=".start.Enter_Activity" />
+        <activity android:name=".start.GuideActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".start.FirstActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

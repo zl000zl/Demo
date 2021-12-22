@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.smartparty.activity.Learning"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击观看视频资源"
+        android:textColor="#9C27B0"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="章节1"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/zhangjie1"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/shengri" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="章节2"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/zhangjie2"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/yiqing" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="章节3"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/zhangjie3"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/tuanjie" />
+
+    </LinearLayout>
+</LinearLayout>

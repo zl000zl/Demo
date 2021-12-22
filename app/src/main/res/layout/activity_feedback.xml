@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Center.activity.Feedback"
+    android:orientation="vertical"
+    android:background="#EFEEEE">
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_gravity="right"
+        android:id="@+id/much_opinion"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="更多意见"
+        android:background="@drawable/style_shape1"
+        android:textColor="#fff"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardCornerRadius="20dp">
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/feed_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请提出您宝贵的意见！"
+            android:background="@null" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/size_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/150"
+                android:textColor="#000"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/submit"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:text="提交"
+        android:textColor="#fff"
+        android:background="@drawable/style_shape"/>
+</LinearLayout>

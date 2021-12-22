@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/xq_tingkao"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/citysubway" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/yuandian" />
+
+        <TextView
+            android:id="@+id/xq_address"
+            android:layout_width="wrap_content"
+            android:ems="1"
+            android:layout_height="wrap_content"
+            android:text="地点"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+</LinearLayout>

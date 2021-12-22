@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Center.CenterFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="40dp">
+
+
+        <ImageView
+            android:id="@+id/center_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/center_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/center_xinxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="个人信息"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/center_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单列表"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/center_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改密码"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/center_opinion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="意见反馈"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/back"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="退出"
+        android:textColor="#fff"
+        android:background="@drawable/style_shape1"/>
+
+</LinearLayout>
